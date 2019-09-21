@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import MainPage from './containers/MainPage';
+import ClockContainer from './containers/clock-contaier'
 import configureStore from './store/configureStore';
 
 import './styles.css';
@@ -11,7 +11,7 @@ const store = configureStore();
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <ClockContainer/>
     </div>
   );
 }

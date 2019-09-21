@@ -1,0 +1,64 @@
+
+.container
+    width: 1280px;
+    height: 800px;
+    background: #293b29
+    display: flex
+    justify-content: center
+    align-items: center
+
+.clock_body
+    width: 350px;
+    height: 350px;
+    background: #3d5a45;
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 80px
+    // border: 2px red solid
+    background-size: auto;
+    position: relative;
+
+.clock
+    width: 300px;
+    height: 300px; //正圓形，所以寬與高都設一樣
+    border-radius: 999em;
+    // background-image: url('../imgs/clock-bg.svg');
+    background-color: #293b29
+
+.hour
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 72px;
+    border-radius: 4px 4px 0 0;
+    transform: translateX(-50%);
+    transform-origin: top left;
+    background-color: #fff;
+    transform: rotate(100deg)
+
+.minute
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 90px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    transform-origin: top left;
+    z-index: 2;
+    background-color: #ff7600;
+
+.second
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50.5%;
+    width: 2px;
+    height: 120px;
+    transform: translateX(-50%);
+    transform-origin: top left;
+    background: #b1ff00
+    transform: rotate( 200deg)

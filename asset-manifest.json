@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gh286991-learing/jsDungeon-Clock/static/css/main.cb2fe0e6.chunk.css",
+    "main.js": "/gh286991-learing/jsDungeon-Clock/static/js/main.c9b095d8.chunk.js",
+    "main.js.map": "/gh286991-learing/jsDungeon-Clock/static/js/main.c9b095d8.chunk.js.map",
+    "runtime~main.js": "/gh286991-learing/jsDungeon-Clock/static/js/runtime~main.0e54e21b.js",
+    "runtime~main.js.map": "/gh286991-learing/jsDungeon-Clock/static/js/runtime~main.0e54e21b.js.map",
+    "static/js/2.bbd3c66e.chunk.js": "/gh286991-learing/jsDungeon-Clock/static/js/2.bbd3c66e.chunk.js",
+    "static/js/2.bbd3c66e.chunk.js.map": "/gh286991-learing/jsDungeon-Clock/static/js/2.bbd3c66e.chunk.js.map",
+    "index.html": "/gh286991-learing/jsDungeon-Clock/index.html",
+    "precache-manifest.dad5f129618c4753f57849f1521490c5.js": "/gh286991-learing/jsDungeon-Clock/precache-manifest.dad5f129618c4753f57849f1521490c5.js",
+    "service-worker.js": "/gh286991-learing/jsDungeon-Clock/service-worker.js",
+    "static/css/main.cb2fe0e6.chunk.css.map": "/gh286991-learing/jsDungeon-Clock/static/css/main.cb2fe0e6.chunk.css.map",
+    "static/media/main.sass": "/gh286991-learing/jsDungeon-Clock/static/media/minute-hand.5e328777.svg"
+  }
+}

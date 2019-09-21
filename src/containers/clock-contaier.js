@@ -8,10 +8,11 @@ import '../css/main.sass';
 class ClockContainer extends React.Component {
   constructor(props) {
     super(props);
+    const date = new Date();
     this.state = {
-      hour: new Date().getHours(),
-      minute: new Date().getMinutes(),
-      second: new Date().getSeconds(),
+      hour: date.getHours() * (360 / 24) + 180,
+      minute: date.getMinutes() * (360 / 60) + 180,
+      second: date.getSeconds() * (360 / 60) + 180,
 
     };
   }
@@ -29,9 +30,9 @@ class ClockContainer extends React.Component {
 
   getTime = () => {
     const date = new Date();
-    const hour = date.getHours();
-    const minute = date.getHours();
-    const second = date.getSeconds();
+    const hour = date.getHours() * (360 / 24) + 180;
+    const minute = date.getMinutes() * (360 / 60) + 180;
+    const second = date.getSeconds() * (360 / 60) + 180;
 
     this.setState({
       hour,

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jsDungeon-Clock/static/css/main.24142ef6.chunk.css",
-    "main.js": "/jsDungeon-Clock/static/js/main.c9b095d8.chunk.js",
-    "main.js.map": "/jsDungeon-Clock/static/js/main.c9b095d8.chunk.js.map",
+    "main.css": "/jsDungeon-Clock/static/css/main.dbea6600.chunk.css",
+    "main.js": "/jsDungeon-Clock/static/js/main.d4504afa.chunk.js",
+    "main.js.map": "/jsDungeon-Clock/static/js/main.d4504afa.chunk.js.map",
     "runtime~main.js": "/jsDungeon-Clock/static/js/runtime~main.1f3c171e.js",
     "runtime~main.js.map": "/jsDungeon-Clock/static/js/runtime~main.1f3c171e.js.map",
     "static/js/2.bbd3c66e.chunk.js": "/jsDungeon-Clock/static/js/2.bbd3c66e.chunk.js",
     "static/js/2.bbd3c66e.chunk.js.map": "/jsDungeon-Clock/static/js/2.bbd3c66e.chunk.js.map",
     "index.html": "/jsDungeon-Clock/index.html",
-    "precache-manifest.84a5dfad4c0f6e6863a8380d22dfc54e.js": "/jsDungeon-Clock/precache-manifest.84a5dfad4c0f6e6863a8380d22dfc54e.js",
+    "precache-manifest.c19248cd69d3eb4f77ff6317329f7620.js": "/jsDungeon-Clock/precache-manifest.c19248cd69d3eb4f77ff6317329f7620.js",
     "service-worker.js": "/jsDungeon-Clock/service-worker.js",
-    "static/css/main.24142ef6.chunk.css.map": "/jsDungeon-Clock/static/css/main.24142ef6.chunk.css.map",
-    "static/media/main.sass": "/jsDungeon-Clock/static/media/minute-hand.5e328777.svg"
+    "static/css/main.dbea6600.chunk.css.map": "/jsDungeon-Clock/static/css/main.dbea6600.chunk.css.map",
+    "static/media/main.sass": "/jsDungeon-Clock/static/media/second-hand.960583bb.svg"
   }
 }

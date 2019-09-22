@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a478277c4c9540c22d40150c2c452ff",
+    "revision": "bf36c55dff9c300b58e9670f446938e8",
     "url": "/jsDungeon-Clock/index.html"
   },
   {
-    "revision": "89d4987c401ec5bea115",
-    "url": "/jsDungeon-Clock/static/css/main.24142ef6.chunk.css"
+    "revision": "85a863f466fe14d45922",
+    "url": "/jsDungeon-Clock/static/css/main.dbea6600.chunk.css"
   },
   {
     "revision": "8c3d8f2a2bb9f9a59508",
     "url": "/jsDungeon-Clock/static/js/2.bbd3c66e.chunk.js"
   },
   {
-    "revision": "89d4987c401ec5bea115",
-    "url": "/jsDungeon-Clock/static/js/main.c9b095d8.chunk.js"
+    "revision": "85a863f466fe14d45922",
+    "url": "/jsDungeon-Clock/static/js/main.d4504afa.chunk.js"
   },
   {
     "revision": "37941ae9c22f410872ca",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5e328777676035268c51c32896f3feaf",
     "url": "/jsDungeon-Clock/static/media/minute-hand.5e328777.svg"
+  },
+  {
+    "revision": "960583bbed7c5972d654f8f076f66591",
+    "url": "/jsDungeon-Clock/static/media/second-hand.960583bb.svg"
   }
 ]);

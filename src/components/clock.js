@@ -21,11 +21,9 @@ class Clock extends React.Component {
 
     return (
       <div className="clock_body">
-        <div className="clock">
-          <div style={style.hour} className="hour"> </div>
-          <div style={style.minute} className="minute" />
-          <div style={style.second} className="second" />
-        </div>
+        <div style={style.hour} className="hour"> </div>
+        <div style={style.minute} className="minute" />
+        <div style={style.second} className="second" />
       </div>
     );
   }

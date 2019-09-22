@@ -8,16 +8,14 @@
     align-items: center
 
 .clock_body
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     // background: #3d5a45;
-    background: url('../imgs/clock-bg.svg')
+    background-image: url('../imgs/clock-bg.svg')
+    background-repeat: no-repeat;
     display: flex
     justify-content: center
     align-items: center
-    border-radius: 80px
-    // border: 2px red solid
-    background-size: auto;
     position: relative;
     
 
@@ -25,25 +23,19 @@
     width: 300px;
     height: 300px; //正圓形，所以寬與高都設一樣
     border-radius: 999em;
-    // background-image: url('../imgs/clock-bg.svg');
-    // margin-top: 45px
-    // margin-left: 45px
-    // background-color: #293b29
 
 .hour
     position: absolute;
     z-index: 2;
     top: 50%;
     left: 50%;
-    width: 8px;
-    height: 72px;
-    border-radius: 4px 4px 0 0;
+    width: 90px;
+    height: 10px;
+    // border-radius: 4px 4px 0 0;
     transform: translateX(-50%);
-    transform-origin: top left;
+    transform-origin: 4px 4px
     background-color: #fff;
-    margin-top: 30px
-    margin-left: 30px
-    background: url('../imgs/hour-hand.svg')
+    background: url('../imgs/hour-hand.svg') no-repeat
 
 .minute
     position: absolute;
@@ -51,27 +43,20 @@
     left: 50%;
     width: 8px;
     height: 90px;
-    border-radius: 4px;
-    // transform: translateX(-50%);
-    transform-origin: top left;
+    transform-origin: 4px 0px;
     z-index: 3;
-    background-color: #ff7600;
-    margin-top: 30px
-    margin-left: 30px
+    // background-color: #ff7600;
     background: url('../imgs/minute-hand.svg')
+    background-repeat: no-repeat;
 
 .second
     position: absolute;
     z-index: 1;
     top: 50%;
     left: 50%;
-    width: 1px;
-    height: 120px;
-    transform: translateX(-50%);
-    transform-origin: top left;
-    background: #b1ff00
-    margin-top: 25px
-    margin-left: 25px
-    // background: url('../imgs/second-hand.svg')
-    // border: 2px red solid
+    width: 14px;
+    height: 130px;
+    transform-origin: center 0.5px;
+    // background: #b1ff00
+    background: url('../imgs/second-hand.svg') no-repeat
 

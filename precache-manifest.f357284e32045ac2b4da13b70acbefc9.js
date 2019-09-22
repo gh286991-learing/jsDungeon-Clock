@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf36c55dff9c300b58e9670f446938e8",
+    "revision": "1d5a1b9c8b930e69d165316a2fbf5556",
     "url": "/jsDungeon-Clock/index.html"
   },
   {
-    "revision": "85a863f466fe14d45922",
-    "url": "/jsDungeon-Clock/static/css/main.dbea6600.chunk.css"
+    "revision": "da8844adc1a6aff4fa9f",
+    "url": "/jsDungeon-Clock/static/css/main.c78c2011.chunk.css"
   },
   {
     "revision": "8c3d8f2a2bb9f9a59508",
     "url": "/jsDungeon-Clock/static/js/2.bbd3c66e.chunk.js"
   },
   {
-    "revision": "85a863f466fe14d45922",
-    "url": "/jsDungeon-Clock/static/js/main.d4504afa.chunk.js"
+    "revision": "da8844adc1a6aff4fa9f",
+    "url": "/jsDungeon-Clock/static/js/main.b866b033.chunk.js"
   },
   {
     "revision": "37941ae9c22f410872ca",

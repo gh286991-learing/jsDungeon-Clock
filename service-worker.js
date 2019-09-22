@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jsDungeon-Clock/precache-manifest.c19248cd69d3eb4f77ff6317329f7620.js"
+  "/jsDungeon-Clock/precache-manifest.f357284e32045ac2b4da13b70acbefc9.js"
 );
 
 self.addEventListener('message', (event) => {
